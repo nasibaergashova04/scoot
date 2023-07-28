@@ -1,0 +1,56 @@
+.header {
+  margin-bottom: 100px;
+  background-color: #FFF;
+  height: 96px;
+  padding: 30px 160px;
+  position: fixed;
+  margin-bottom: 100px;
+}
+.header__nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__nav__logo {
+  vertical-align: middle;
+}
+.header__nav__list {
+  display: inline-flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 32px;
+}
+.header__nav__list__items-links {
+  color: var(--dimgrey);
+  font-family: Space Mono;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px; /* 166.667% */
+  text-decoration: none;
+}
+.header__nav__list__items-links:hover {
+  cursor: pointer;
+  color: var(--yellow);
+}
+.header__nav__btn {
+  background-color: var(--yellow);
+  width: 170px;
+  height: 53px;
+  color: #FFF;
+  text-align: center;
+  font-family: Space Mono;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px; /* 166.667% */
+  border: 1px solid;
+}
+.header__nav__btn:hover {
+  border: 3px solid var(--yellow);
+  color: var(--yellow);
+  background-color: transparent;
+  cursor: pointer;
+}
+
+@imp @import "footer";/*# sourceMappingURL=blocks-all.css.map */

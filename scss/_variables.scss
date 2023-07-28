@@ -1,0 +1,27 @@
+:root{
+  --yellow:#FCb72B;
+  --snow: #F2F5F9 ;
+  --darknavy :#495567;
+  --dimgrey: #939CAA;
+  --lightgrey: #E5ECF4;
+  --lightyellow:#FFF4DF;
+}
+
+.btn {
+  font-family: 'Space Mono';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 25px;
+  text-align: center;
+  background: #FCB72B ;
+  padding: 15px 40px;
+  color: #fff;
+  border: 1px solid #FCB72B;
+  cursor: pointer;
+  &:hover{
+      background: transparent;
+      border: 1px solid #FCB72B;
+      color: #FCB72B;
+  }
+}

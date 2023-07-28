@@ -1,0 +1,117 @@
+.footer {
+  width: 1440px;
+  margin: 0 auto;
+  &__wrapper {
+    background-image: url(../../images/Mask.png);
+    background-repeat: no-repeat;
+    background-size: 1440px;
+    background-position: center;
+    padding-top: 102px;
+    padding-bottom: 102px;
+    &__first {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      &__right {
+        display: flex;
+        align-items: center;
+        gap: 18px;
+      }
+
+      &__head {
+        width: 415px;
+        font-family: Space Mono;
+        color: #fff;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 48px; /* 100% */
+        letter-spacing: -2.143px;
+      }
+    }
+
+    &__app-store {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 5px 15px 9px 16px;
+      gap: 11px;
+    }
+    &__btn {
+      display: flex;
+      flex-direction: column;
+      align-items: start;
+    }
+    &__play-market {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 5px 15px 9px 16px;
+      gap: 11px;
+    }
+  }
+
+  &__span {
+    color: var(--darknavy);
+    font-family: Space Mono;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.446px;
+  }
+  &__text {
+    font-family: Space Mono;
+    color: var(--darknavy);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: -0.893px;
+  }
+
+  &__card {
+    width: 1440px;
+    margin: 0 auto;
+    background-color: #333a44;
+    padding-top: 35px;
+    padding-bottom: 33px;
+
+    &__wrap {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    &__list {
+      display: flex;
+      align-items: center;
+      gap: 32px;
+    }
+    &__logo {
+      margin-right: 16px;
+    }
+    &__link {
+      color: var(--dimgrey);
+      font-size: 15px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 25px;
+      font-family: Space Mono;
+      text-decoration: none;
+
+      &:hover {
+        color: var(--yellow);
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 25px;
+      }
+    }
+    &__social-media {
+      cursor: pointer;
+    }
+  }
+}
