@@ -305,7 +305,7 @@
   padding-top: 200px;
 }
 .service__btn {
-  background: #fcb72b;
+  background: var(--yellow);
   color: #fff;
   text-align: center;
   font-size: 15px;
@@ -316,7 +316,7 @@
   border: none;
 }
 .service__btn:hover {
-  color: #fcb72b;
+  color: var(--yellow);
   font-size: 15px;
   font-style: normal;
   font-weight: 700;
@@ -345,7 +345,7 @@
   justify-content: center;
 }
 .service__first__left__head {
-  color: #495567;
+  color: var(--dimgrey);
   font-size: 48px;
   font-style: normal;
   font-weight: 700;
@@ -355,7 +355,7 @@
   margin-bottom: 24px;
 }
 .service__first__left__text {
-  color: #939caa;
+  color: var(--dimgrey);
   font-family: "Lexend Deca";
   font-size: 15px;
   font-style: normal;
