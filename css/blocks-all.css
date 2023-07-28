@@ -255,7 +255,7 @@
   margin-bottom: 27px;
 }
 .offer__wrap__cards__text {
-  color: #939caa;
+  color: var(--dimgrey);
   font-family: "Lexend Deca";
   font-size: 15px;
   font-style: normal;
